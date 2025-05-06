@@ -159,7 +159,7 @@ async function getEmployees() {
                     </div>
 
                     <div class="grid flex-1 place-items-center">
-                        <p class="text-4xl font-bold text-green-600 dark:text-green-400">{{ averageEmployeesAge }}</p>
+                        <p class="text-4xl font-bold text-green-600 dark:text-green-400">{{ averageEmployeesAge.toFixed(2) }}</p>
                     </div>
                 </div>
 
